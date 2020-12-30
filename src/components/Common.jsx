@@ -16,6 +16,7 @@ function Common(props) {
                     <div className="mt-3 ">
                         <NavLink to={props.visit} className="btn-get-started">{props.btname}</NavLink>
                     </div>
+
                 </div>
                 <div className="col-lg-6 order-lg-2 header-img">
                 <img src={props.imgsrc} className="img-fluid animated" alt="" />
